@@ -1,0 +1,88 @@
+.profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    position: relative;
+    border: #8ccbf5 2px solid;
+}
+
+form {
+    margin: 0 auto; 
+    width:400px;  
+    text-align: center;
+    
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .btn-primary {
+      background: #1B3C5B;
+  }
+
+  body {
+    background: #1B3C5B;
+    margin-right: 280px;
+    margin-left: 280px;
+  }
+
+  @media(max-width: 1025px) {
+    
+    body {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .btn-primary {
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 580px) {
+    
+    body {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .btn-primary {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 520px) {
+    
+    body {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+}
+
+@media(max-width: 480px) {
+    
+    body {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form {
+        margin: 0 auto; 
+        width:300px;  
+        text-align: center;
+        
+      }
+
+}
+
+@media(max-width: 320px) {
+
+    form {
+        margin: 0 auto; 
+        width: 250px;  
+        text-align: center;
+        
+      }
+
+}

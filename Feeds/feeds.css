@@ -1,0 +1,29 @@
+.tpn-1 {
+    color: #bbb6b6;
+    font-size: 28px;
+}
+
+.content-history {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+}
+
+.head-part {
+    font-size: 28px;
+}
+
+.blue-tab {
+    background-color: #8ccbf5;
+}
+
+.content-history small {
+    font-size: 18px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+body {
+    background: #1B3C5B;
+}
